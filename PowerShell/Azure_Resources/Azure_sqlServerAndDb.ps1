@@ -1,3 +1,9 @@
+######################################################################################################################################### 
+#  This script will will allow you to check if an azure sql server exist and if not will create one for you along with X amount of DB's #
+#                Please not that if you require to login non interactively you may need to amend this script.                           #
+#########################################################################################################################################
+
+
 $resourceGroupName = "<resourceGroupName>"
 $location = "<location>"  # You can change this to the desired location
 $serverName = "<serverName>"
