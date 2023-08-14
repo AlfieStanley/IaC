@@ -1,6 +1,6 @@
 ##################################################################################################################
 #  This script will will allow you to check if an azure resource group exist and if not will create one for you. #
-#        Please not that if you require to login non interactively you may need to amend this script.           #                                                                                                                                        #
+#        Please not that if you require to login non interactively you may need to amend this script.            #                                                                                                                                        #
 ##################################################################################################################
 
 $resourceGroupName = "<resourceGroupName>"
