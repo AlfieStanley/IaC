@@ -38,5 +38,26 @@ IaC promotes environment parity, ensuring that development, testing, and product
 
 ## Tools for Infrastructure as Code
 
+### Terraform
+
+Terraform is an open-source tool from HashiCorp that supports multiple cloud providers. It uses declarative syntax to define infrastructure as code and can manage complex infrastructures with ease.
+
+### PowerShell 
+
+PowerShell is a powerful scripting language from Microsoft that allows you to manage and automate cloud resources. It provides rich integration with Azure, enabling you to create, configure, and manage a wide range of Azure services.
+
+### AWS CloudFormation
+
+AWS CloudFormation is Amazon's native IaC service. It uses JSON or YAML templates to define AWS resources and automates resource provisioning and management.
+
+### Google Cloud Deployment Manager
+
+Google Cloud Deployment Manager allows you to define, deploy, and manage Google Cloud resources using configuration files written in YAML or Python.
+
+### Ansible
+
+Ansible is an automation tool that supports IaC through its infrastructure provisioning features. It uses playbooks to define configurations and can manage various cloud providers.
+
+## 
 
 This repository will house workable scripts from various toold to allow the creation of Azure resources. 
