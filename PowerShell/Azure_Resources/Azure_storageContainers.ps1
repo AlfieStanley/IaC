@@ -1,7 +1,7 @@
-##############################################################################################################################
-#  This script will will allow you to check if an azure storage account containers exist and if not will create one for you. #
-#        Please not that if you require to login non interactively you may need to amend this script.                        #                                                                                                                                        #
-##############################################################################################################################
+##############################################################################################################################################
+#  This script will will allow you to check if an azure storage account containers exist and if not will create the amount specifed for you. #
+#                  Please not that if you require to login non interactively you may need to amend this script.                              #                                                                                                                                        #
+##############################################################################################################################################
 
 $resourceGroupName = "<resourceGroupName>"
 $storageAccountName = "<storageAccountName>"
