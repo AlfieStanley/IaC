@@ -9,7 +9,7 @@ $storageAccountName = "<storageAccountName>"
 # Get the storage account
 $storageAccount = Get-AzStorageAccount -ResourceGroupName $resourceGroupName -Name $storageAccountName
 
-# Enable soft delete for blobs
+# Enable soft delete for blobs, the default is 7.
 Enable-AzStorageContainerDeleteRetentionPolicy -ResourceGroupName $resourceGroupName `
     -StorageAccountName $storageAccountName `
     -RetentionDays 7
